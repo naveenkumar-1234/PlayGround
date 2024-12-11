@@ -72,8 +72,19 @@ public class Patterns {
             System.out.println();
         }
     }
-
+    public static void pattern9(int n){
+        for(int i=0;i<n;i++){
+            for(int j=n-1;j>i;j--) System.out.print(" "); //j=n-1 j>i   4 3 2 1 0
+            for(int j=0;j<2*i+1;j++) System.out.print("*");  // 0+1 2+1 4+1 6+1 8+1
+            System.out.println();
+        }
+        for(int i=0;i<n;i++){
+            for(int j=0;j<i;j++) System.out.print(" ");
+            for(int j=1;j<=2*n-(2*i+1);j++) System.out.print("*");
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
-        pattern8(5);
+        pattern9(5);
     }
 }
