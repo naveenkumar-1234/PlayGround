@@ -1,0 +1,16 @@
+apt install gh
+gh --version
+gh auth login
+
+
+
+mkdir new-repo-name
+cd new-repo-name
+git init
+
+gh repo create new-repo-name --public
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+
