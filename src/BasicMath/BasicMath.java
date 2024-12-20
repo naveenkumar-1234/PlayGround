@@ -89,41 +89,35 @@ public class BasicMath {
                 case 1:
                     System.out.println("Enter your number:");
                     System.out.println(countDigit(sc.nextInt()));
-                    System.out.println("-----------------------------------------");
                     break;
                 case 2:
                     System.out.println("Enter your number:");
                     System.out.println(reverseNumber(sc.nextInt()));
-                    System.out.println("-----------------------------------------");
                     break;
                 case 3:
                     System.out.println("Enter your number:");
                     System.out.println(checkPalindrome(sc.nextInt()));
-                    System.out.println("-----------------------------------------");
                     break;
                 case 4:
                     System.out.println("Enter your number A and B:");
                     System.out.println(GCD(sc.nextInt(),sc.nextInt()));
-                    System.out.println("-----------------------------------------");
                     break;
                 case 5:
                     System.out.println("Enter your number:");
                     System.out.println(ArmstrongNumber(sc.nextInt()));
-                    System.out.println("-----------------------------------------");
                     break;
                 case 6:
                     System.out.println("Enter your number:");
                     System.out.println(isPrime(sc.nextInt()));
-                    System.out.println("-----------------------------------------");
                     break;
                 case 7:
                     System.out.println("Enter your number:");
                     divisors(sc.nextInt());
-                    System.out.println("-----------------------------------------");
                     break;
                 default:
                     System.out.println("Invalid choice, Please try again!");
             }
+            System.out.println("-----------------------------------------");
         }
     }
 
