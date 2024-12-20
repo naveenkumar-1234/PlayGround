@@ -36,8 +36,8 @@ This program implements the **Euclidean Algorithm** to compute the **Greatest Co
 1. r = a % b     **| a >= b |**      **Min and Max Not needed because when we switch a=b and b=r it change MAX as a and MIN as b.** **Example : a=10 and b=35 , r= 10% 35 it will give 10 so a= 35 and b= 10 . Finally it switched**
 2. a = b
 3. b = r
-4. Perform until r = 0
-5. If r = 0, then a must be the GCD of two numbers.
+4. Perform until b = 0
+5. If b = 0, then a must be the GCD of two numbers.
 
 ### Time Complexity:
 The time complexity of the Euclidean algorithm is **O(log(min(n1, n2)))**, where `n1` and `n2` are the two numbers. This is because each step reduces the problem size logarithmically.
