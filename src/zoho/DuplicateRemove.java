@@ -1,6 +1,8 @@
-import java.util.List;
+package zoho;
 
-class Main{
+public class DuplicateRemove {
+
+
     public static void main(String[] args) {
 
     }

@@ -1,0 +1,50 @@
+Java OOP and Core Concepts - Implementation Questions
+
+    Encapsulation & Data Hiding:
+        Create a BankAccount class with private fields for accountNumber, balance, and ownerName.
+        Provide getter methods but restrict direct modifications of the balance, allowing only deposits and withdrawals through methods.
+        Ensure a negative balance is not allowed.
+
+    Inheritance & Method Overriding:
+        Create a Vehicle class with a method startEngine().
+        Extend it with Car and Bike classes that override the startEngine() method with their own implementations.
+        Demonstrate dynamic method dispatch using a superclass reference.
+
+    Abstract Classes & Polymorphism:
+        Define an abstract class Employee with an abstract method calculateSalary().
+        Create subclasses FullTimeEmployee and PartTimeEmployee, each implementing calculateSalary().
+        Demonstrate runtime polymorphism by calling the method on different instances.
+
+    Interfaces & Multiple Inheritance Handling:
+        Define two interfaces: Flyable with fly() and Swimmable with swim().
+        Create a Duck class that implements both interfaces and provide appropriate behavior for fly() and swim().
+
+    Static vs Instance Behavior:
+        Create a Student class with a static variable collegeName and an instance variable studentName.
+        Implement methods to modify and display both values.
+        Check the behavior of static vs instance variables when multiple objects are created.
+
+    Method Overloading & Constructor Overloading:
+        Create a Calculator class that overloads the add() method to support:
+            Two integers
+            Three integers
+            Two double values
+        Also, implement constructor overloading in the same class.
+
+    File Handling & Exception Handling:
+        Write a Java program that reads a file and handles exceptions for file not found, reading errors, and closing the file safely using try-with-resources.
+
+    Threading & Synchronization:
+        Implement a Bank application where two threads try to withdraw money from the same account.
+        Use synchronization to ensure no overdraft occurs.
+
+    Collections & Generics:
+        Create a Library system where books are stored in an ArrayList<Book>.
+        Implement methods to add, remove, and search books using generics.
+
+    Lambda Expressions & Functional Interfaces:
+
+    Implement a functional interface with a method calculate(int a, int b).
+    Use a lambda expression to provide addition, subtraction, and multiplication behavior dynamically.
+
+Try implementing these! Each question strengthens your core Java OOP understanding while covering essential Java features. 🚀

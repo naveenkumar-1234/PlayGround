@@ -1,0 +1,47 @@
+Java Collections Practice Questions:
+
+    ArrayList Basics:
+        Create an ArrayList of integers and perform the following:
+            Add elements
+            Remove an element
+            Update an element
+            Iterate through the list using a loop
+
+    LinkedList vs ArrayList:
+        Implement a LinkedList with some operations and compare its performance with ArrayList using System.nanoTime() for adding and removing elements.
+
+    HashSet and Uniqueness:
+        Create a HashSet of strings and add duplicate values.
+        Check how HashSet handles duplicates.
+        Convert the HashSet into an ArrayList.
+
+    Sorting with TreeSet:
+        Create a TreeSet and add some random numbers.
+        Verify if they are stored in sorted order.
+        Try adding null and observe the behavior.
+
+    HashMap Operations:
+        Implement a HashMap<String, Integer> to store student names and marks.
+        Perform operations like insertion, deletion, searching, and updating values.
+
+    Custom Object in HashSet:
+        Create a Student class with id and name.
+        Store Student objects in a HashSet and check if duplicates are allowed.
+        Override hashCode() and equals() to ensure uniqueness.
+
+    ConcurrentModificationException:
+        Create an ArrayList, add elements, and try modifying it inside a loop.
+        Observe when ConcurrentModificationException occurs and fix it using an Iterator.
+
+    PriorityQueue Implementation:
+        Implement a PriorityQueue that stores tasks with different priorities (1 to 5).
+        Ensure tasks with higher priority are processed first.
+
+    LinkedHashMap for LRU Cache:
+        Create an LRU Cache using LinkedHashMap with a fixed size.
+        Remove the least recently used element when the size limit is exceeded.
+
+    Thread-Safe Collections:
+
+    Create a CopyOnWriteArrayList and a SynchronizedList.
+    Add elements to both from multiple threads and observe how they handle concurrency.

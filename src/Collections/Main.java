@@ -26,6 +26,7 @@ public class Main {
         //Iterable
         Iterator it = arr.iterator();
 
+
         //Common methods in Collections Class
         Collections.sort(arr);
         Collections.shuffle(arr);

@@ -35,7 +35,7 @@ public class Recursion {
         return false;
     }
     static boolean isPalindrome(String str,int i){
-        if(i >= (str.length()-1)/2) return true;
+                if(i >= (str.length()-1)/2) return true;
         if(compare(str,i)) return compare(str,i+1);      // if it fails then it couldn't be Palindrome
         return false;
            }
@@ -48,6 +48,6 @@ public class Recursion {
         int[] arr={6,3,6,3,4,6,79};
         reverseArray(arr,0);
         System.out.println(isPalindrome("1211",0));
-//        System.out.println(fibonacci(0));
+        System.out.println(fibonacci(0));
     }
 }
